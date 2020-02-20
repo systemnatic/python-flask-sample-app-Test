@@ -8,7 +8,7 @@ WORKDIR /app
 
 RUN pip install --editable .
 
-RUN export FLASK_APP=flaskr.py
+RUN export FLASK_APP=flaskr.flaskr
 
 RUN flask initdb
 
