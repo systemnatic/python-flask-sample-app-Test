@@ -8,11 +8,9 @@ WORKDIR /app
 
 RUN pip install --editable .
 
-RUN export FLASK_APP=flaskr.flaskr
+RUN export FLASK_APP=minitwit
 
 RUN flask initdb
-
-RUN python3 -m flask initdb
 
 # Unit tests
 # python setup.py test
