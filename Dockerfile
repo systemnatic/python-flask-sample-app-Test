@@ -12,6 +12,8 @@ RUN export FLASK_APP=flaskr.py
 
 RUN flask initdb
 
+RUN python3 -m flask initdb
+
 # Unit tests
 # python setup.py test
 
